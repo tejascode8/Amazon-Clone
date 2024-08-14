@@ -377,8 +377,8 @@ ul a {
   }
 }
 @media (max-width: 881px) {
-  .foot-panel2 ul:nth-child(3),
-  .foot-panel2 ul:nth-child(4) {
+  .foot-panel2 ul:nth-child(1),
+  .foot-panel2 ul:nth-child(3) {
     display: none;
   }
 }
@@ -390,4 +390,16 @@ ul a {
     height: auto;
     width: auto;
   }
+  .foot-panel2 ul:nth-child(2) {
+    display: none;
+  }
+  /* .foot-panel2, */
+  .foot-panel2 > ul > p,
+  .foot-panel2 > ul > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+  }
 }
+
